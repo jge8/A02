@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A02_IS117</title>
+</head>
+<body>
+<h1>A02_IS117</h1>
+
+
+<h2>Part 1: Directions on Using Git</h2>
+<ol>
+    <li>Download Git: Go to "https://git-scm.com/downloads" and download the appropriate version for your operating system. Follow the installation instructions.</li>
+
+
+    <li>Configure Git: Launch a terminal or command prompt and execute the subsequent commands to set up your Git username and email address:<br>
+        <pre><code>
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+            </code></pre>
+    </li>
+    <li>To establish a new repository, navigate to your desired directory in the terminal or command prompt. Utilize the following command to initialize a fresh Git repository:<br>
+        <pre><code>
+git init
+            </code></pre>
+    </li>
+    <li>Clone an Existing Repository: Navigate to the directory where you want to clone the repository. Run the following command, replacing `<repository-url>` with the URL of the repository you want to clone:<br>
+        <pre><code>
+git clone <repository-url>
+            </code></pre>
+    </li>
+    <li>Add Files to the Staging Area: After making changes to your files, you can add them to the staging area using the following command:<br>
+        <pre><code>
+git add
+            </code></pre>
+        Replace `.` with specific file names if you only want to stage certain files.
+    </li>
+    <li>Commit Changes: Once your changes are staged, you can commit them to the repository with a descriptive message using the following command:<br>
+        <pre><code>
+git commit -m "Your commit message here"
+            </code></pre>
+    </li>
+    <li>Push Changes to GitHub: If you're working with a remote repository on GitHub, you can push your committed changes using the following command:<br>
+        <pre><code>
+git push origin master
+            </code></pre>
+        Replace `origin` with the name of your remote repository and `master` with the name of your branch if they are different.
+    </li>
+</ol>
+
+
+<h2>Part 1: Directions on Using WebStorm</h2>
+<ol>
+    <li>Download and Install WebStorm: Navigate to "https://www.jetbrains.com/webstorm/download" and download the appropriate version for your operating system. Follow the installation instructions.</li>
+    <li>Open WebStorm: Launch WebStorm from your applications folder or desktop shortcut.</li>
+    <li>Configure Git in WebStorm: Go to File > Settings > Version Control > Git. Enter the path to your Git executable if it's not automatically detected.</li>
+    <li>Clone a Repository: In WebStorm, go to VCS > Git > Clone. Enter the URL of the repository you want to clone and specify the directory where you want to save it.</li>
+    <li>Make Changes: Open the cloned project in WebStorm, make changes to files as needed.</li>
+    <li>Commit Changes: Go to VCS > Commit. Add a commit message describing the changes you've made, then click Commit.</li>
+    <li>Push Changes to GitHub: After committing changes, go to VCS > Git > Push. Verify the branch and destination, then click Push.</li>
+</ol>
+
+
+<h2>Part 2: Glossary</h2>
+<ul>
+    <li>Branch: A parallel version of a repository.</li>
+    <li>Clone: Create a local copy of a repository.</li>
+    <li>Commit: Record changes to the repository.</li>
+    <li>Fetch: Download objects and refs from another repository.</li>
+    <li>Git: A distributed version control system.</li>
+    <li>GitHub: A platform for hosting and collaborating on Git repositories.</li>
+    <li>Merge: Combine changes from different branches.</li>
+    <li>Merge Conflict: A condition that occurs when Git is unable to automatically resolve conflicting changes.</li>
+    <li>Push: Send local commits to a remote repository.</li>
+    <li>Pull: Fetch changes from a remote repository and integrate them into the local repository.</li>
+    <li>Remote: A version of a repository that is hosted on a server.</li>
+    <li>Repository: A location where all the files for a particular project are stored.</li>
+</ul>
+
+
+<h2> Refernces </h2>
+<ul>
+    <li>JetBrains WebStorm Doc: https://www.jetbrains.com/help/webstorm/
+    <li>Pro Git Book: https://git-scm.com/book/en/v2
+
+
+</body>
+</html>
